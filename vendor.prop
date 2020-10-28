@@ -297,3 +297,6 @@ vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 ro.vendor.sec.radio.def_network=9
 ro.telephony.default_cdma_sub=0
 persist.vendor.cne.feature=0
+
+# Zygote
+zygote.critical_window.minute=10
