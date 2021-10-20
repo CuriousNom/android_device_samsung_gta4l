@@ -36,4 +36,6 @@ overlay/frameworks/base/packages/SettingsProvider/res/values/defaults.xml
     <!-- Enable vibrate for calls by default -->
     <bool name="def_vibrate_when_ringing">true</bool>
 
+    <!-- Speed up the animations -->
+    <fraction name="def_window_transition_scale">80%</fraction>
 </resources>
