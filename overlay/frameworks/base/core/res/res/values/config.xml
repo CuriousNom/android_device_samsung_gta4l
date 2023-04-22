@@ -263,4 +263,7 @@ Note that doze dreams are not subject to the same start conditions as ordinary d
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">false</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
 </resources>
