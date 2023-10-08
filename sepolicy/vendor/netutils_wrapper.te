@@ -2,3 +2,10 @@ allow netutils_wrapper rild:fd use;
 allow netutils_wrapper rild:fifo_file {read write};
 allow netutils_wrapper rild:unix_stream_socket {read write};
 allow netutils_wrapper rild:netlink_route_socket {read write};
+
+allow netutils_wrapper rild:fifo_file { read write };
+allow netutils_wrapper rild:udp_socket { read write };
+
+allow netutils_wrapper tun_device:chr_file { read write };
+allow netutils_wrapper proc_net:file rw_file_perms;
+allow netutils_wrapper mps_efs_file:file { read write };

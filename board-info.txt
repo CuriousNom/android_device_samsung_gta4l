@@ -1,1 +1,2 @@
 require board=bengal|gta4l
+require version-trustzone=XF.5.1-01015-1

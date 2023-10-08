@@ -1,1 +1,10 @@
 type radio_vendor_data_file, file_type, data_file_type;
+type proc_last_kmsg, fs_type, proc_type;
+
+type app_efs_file, file_type;
+type prov_efs_file, file_type;
+type wifi_efs_file, file_type;
+type mps_efs_file, file_type;
+
+type sysfs_sec_switch, fs_type, sysfs_type;
+type sysfs_tsp, fs_type, sysfs_type;
