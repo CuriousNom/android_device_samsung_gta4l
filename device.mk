@@ -48,9 +48,6 @@ TARGET_SCREEN_WIDTH := 1200
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
-# Dex
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
-
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
