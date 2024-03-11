@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl:32 \
     android.hardware.soundtrigger@2.3-impl \
     audio.primary.default \
+    audio.primary.msmnile \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
