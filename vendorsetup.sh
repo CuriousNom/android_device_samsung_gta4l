@@ -7,7 +7,7 @@ cp -r hardware/tmp/* hardware/samsung/
 rm -rf hardware/tmp
 
 # Cloning kernel repositories
-git clone --depth=1 https://github.com/Matrixx-Devices/android_kernel_samsung_gta4l kernel/samsung/sm6115
+git clone --depth=1 https://github.com/CuriousNom/android_kernel_samsung_gta4l.git -b 14.0-ksu kernel/samsung/sm6115
 
 # Update KSU Targets
 cd kernel/samsung/sm6115
